@@ -120,10 +120,8 @@ def run_continuously(schedule, interval=1):
     return cease_continuous_run
     
 def main():
-    #akun broadcast_telegram_bot
-    #TOKEN='727564606:AAHShdPk_OVYzwnUylXZEyoOrHKlcwHUW2Q'  #wa
     
-    TOKEN='818429046:AAFhWUPJQi2pIavmb4oDi1sC4WSVq_evZ9I'
+    TOKEN='Your Token'
     updater = Updater(TOKEN)
 
     dp = updater.dispatcher
